@@ -47,3 +47,15 @@ ul.posts li {
 #portrait {
   width: 500px;
 }
+
+#resume-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 80vh;
+}
+
+#resume {
+  flex: 1 1 auto;
+  border: 0;
+}
