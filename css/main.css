@@ -44,8 +44,22 @@ ul.posts li {
   list-style: none;
 }
 
+#portrait-container {
+  height: 320px;
+  width: 320px;
+  margin: 1em;
+}
+
 #portrait {
-  width: 500px;
+  /* 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  */
+  background-color: #ccffff;
+  width: 300px;
+  padding: 10px;
+  border-radius: 300px;
 }
 
 #resume-container {
