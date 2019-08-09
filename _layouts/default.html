@@ -3,6 +3,11 @@
   <head>
     <title>{{ page.title }}</title>
     <!-- link to main stylesheet -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
   <body>
@@ -11,9 +16,17 @@
         <li><a href="/">Home</a></li>
         <li><a href="/about">About Me</a></li>
         <li><a href="/code-examples">Code Examples</a></li>
-        <li><a href="/resume">Resume</a></li>
+        <li>
+          <a href="/assets/images/programmer-resume.pdf" target="_blank"
+            >Resume</a
+          >
+        </li>
       </ul>
     </nav>
+    <div class="header">
+      <h1>Petar Ivcec</h1>
+      <h2>Full Stack JavaScript Developer</h2>
+    </div>
     <div class="container">
       {{ content }}
     </div>
