@@ -44,14 +44,12 @@ h1 {
   font-size: 3em;
   font-family: "Helvetica", "Arial", "Sans-Serif";
   margin: 0;
-  padding: 7px;
   color: #383939;
 }
 
 h2 {
   font: 400 2em "Cookie", Helvetica, sans-serif;
   margin: 0;
-  padding: 7px;
   color: #383939;
 }
 
@@ -77,7 +75,7 @@ li {
 .header {
   background-color: #ffffff;
   border-bottom: 3px solid #d5d5d5;
-  padding: 1em;
+  padding: 0 1em 1em 1em;
 }
 
 .container {
